@@ -1,1 +1,1 @@
-web: gunicorn django_vue.wsgi
+web: gunicorn django_vues.wsgi
