@@ -1,1 +1,1 @@
-web: gunicorn vue_django_youtubed.wsgi
+web: gunicorn django_vue.wsgi
