@@ -64,7 +64,7 @@ export default {
     }
 
     // handle
-    &::-webkit-scrollbar-thumb  {
+    &::-webkit-scrollbar-thumb {
       background: #606770;
       border-radius: 3px;
     }
