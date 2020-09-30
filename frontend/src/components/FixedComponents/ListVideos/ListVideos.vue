@@ -6,7 +6,7 @@
       </div>
       <section>
         <ListVideo v-for="itr in myArray" :key="itr" watch="watchHandler" :vidImg="pp" duration="3:06"
-        :altname="alttitle" :userImg="pp" :desc="desc" :username="usnm"  views="89" age="10" />
+          :altname="alttitle" :userImg="pp" :desc="desc" :username="usnm"  views="89" age="10" />
       </section>
     </section>
 
