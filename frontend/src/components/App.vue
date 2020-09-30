@@ -21,6 +21,17 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+*, body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100vh;
+  width: 100vw;
+}
+
 p {
   font-size: 2em;
   text-align: center;
