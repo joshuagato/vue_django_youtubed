@@ -18,9 +18,9 @@
 </template>
 
 <script>
-import Header from '../FixedComponents/Header/Header.vue';
-import SideNav from '../FixedComponents/SideNav/SideNav.vue';
-import ListVideos from '../FixedComponents/ListVideos/ListVideos.vue';
+import Header from '../FixedComponents/Header/Header';
+import SideNav from '../FixedComponents/SideNav/SideNav';
+import ListVideos from '../FixedComponents/ListVideos/ListVideos';
 
 export default {
   components: { Header, SideNav, ListVideos },

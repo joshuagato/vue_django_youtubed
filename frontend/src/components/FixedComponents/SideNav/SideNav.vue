@@ -23,7 +23,7 @@
 </template>
 
 <script>
-import MenuItem from './MenuItem/MenuItem.vue';
+import MenuItem from './MenuItem/MenuItem';
 import { faHome, faHistory, faFolder, faQuestionCircle, faClock, faFireAlt, faFire, faThumbsUp, faCog, faFlag, faFootballBall, faGamepad } from '@fortawesome/free-solid-svg-icons';
 import { faHackerNews, faYoutubeSquare } from '@fortawesome/free-brands-svg-icons';
 

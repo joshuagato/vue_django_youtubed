@@ -18,6 +18,10 @@ module.exports = {
       }
     ]
   },
+  resolve: {
+    enforceModuleExtension: false,
+    extensions: ['.js', '.vue', '.css', '.scss']
+  },
   plugins: [
     // make sure to include the plugin for the magic
     new VueLoaderPlugin()

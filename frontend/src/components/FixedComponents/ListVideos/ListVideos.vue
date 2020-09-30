@@ -23,7 +23,7 @@
 </template>
 
 <script>
-import ListVideo from './ListVideo/ListVideo.vue';
+import ListVideo from './ListVideo/ListVideo';
 
 export default {
   components: { ListVideo },
