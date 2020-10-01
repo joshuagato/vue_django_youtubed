@@ -72,7 +72,7 @@ export default {
 
   hr {
     margin: 1.5rem 0;
-    border-color: #c4c6c9e6;
+    border-color: rgba(197, 198, 201, 0.9);
   }
 }
 </style>

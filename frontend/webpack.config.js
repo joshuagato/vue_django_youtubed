@@ -20,7 +20,7 @@ module.exports = {
   },
   resolve: {
     enforceModuleExtension: false,
-    extensions: ['.js', '.vue', '.css', '.scss']
+    extensions: ['.vue', '.js', '.css', '.scss']
   },
   plugins: [
     // make sure to include the plugin for the magic

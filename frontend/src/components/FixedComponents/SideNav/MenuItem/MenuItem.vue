@@ -21,7 +21,9 @@ export default {
   padding: 0.2rem 0.8rem;
   cursor: pointer;
   text-decoration: none;
-  // border-bottom: 1px solid #a8a8a8;
+  &:focus, &:hover, &:visited, &:link, &:active {
+    text-decoration: none;
+  }
 
   &:hover {
     background-color: #DADDE1;

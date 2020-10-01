@@ -22,7 +22,12 @@
 
 <script>
 export default {
-  props: ['watch', 'vidImg', 'altname', 'duration', 'userImg', 'desc', 'username', 'views', 'age']
+  props: ['vidImg', 'altname', 'duration', 'userImg', 'desc', 'username', 'views', 'age'],
+  methods: {
+    watch() {
+      this.$router.push('/watch-videos');
+    }
+  }
 }
 </script>
 

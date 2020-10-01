@@ -1,7 +1,7 @@
 <template>
   <div class="homepage">
     <section class="header-section">
-      <Header />
+      <Header @showhide="shown = $event" />
     </section>
 
     <section class="main-content-and-nav-div">
@@ -10,8 +10,7 @@
       </section>
 
       <section class="main-content">
-        <ListVideos />
-        <!-- <Route path='/watch-videos' exact component={WatchVideos} /> -->
+        <router-view></router-view>
       </section>
     </section>
   </div>

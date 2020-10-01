@@ -1,12 +1,12 @@
 <template>
   <nav class="header-div">
     <div class="menu-icon-group">
-      <div @click="showhide" title="Double click to show/hide sidebar" class="menu">
+      <div @click="toggleShown" title="Double click to show/hide sidebar" class="menu">
         <FontAwesomeIcon :icon="faBars" />
       </div>
-      <div onclick="homeHandler" class="icon">
+      <router-link to="/" class="icon">
         <FontAwesomeIcon :icon="faYoutube" />
-      </div>
+      </router-link>
     </div>
     <div class="search-bar">
       <input type="search" placeholder="Search" />
@@ -29,16 +29,16 @@ export default {
   components: { FontAwesomeIcon },
   data() {
     return {
-      shown: false,
+      shown: true,
       faBars: faBars, faSearch: faSearch, faYoutube: faYoutube, faSearch: faSearch,
       faUpload: faUpload, faSignInAlt: faSignInAlt, faSignOutAlt: faSignOutAlt
     }
   },
   methods: {
-    showhide() {
-      shown = !shown
-    },
-    homeHandler() {}
+    toggleShown() {
+      this.shown = !this.shown
+      this.$emit('showhide', this.shown)
+    }
   }
 }
 </script>
