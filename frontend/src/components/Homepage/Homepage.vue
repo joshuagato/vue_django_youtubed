@@ -20,7 +20,7 @@
 <script>
 import Header from '../FixedComponents/Header/Header';
 import SideNav from '../FixedComponents/SideNav/SideNav';
-import ListVideos from '../FixedComponents/ListVideos/ListVideos';
+import ListVideos from './ListVideos/ListVideos';
 
 export default {
   components: { Header, SideNav, ListVideos },
